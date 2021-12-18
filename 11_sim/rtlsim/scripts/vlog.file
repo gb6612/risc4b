@@ -1,0 +1,15 @@
+//  This file contains the online options passed
+//  to the modelsim verilog simulator.
+
+-sv 
+-64
+
++incdir+./../../09_models
++incdir+./../../10_rtl
++incdir+./../tb
+
+-lint=full 
+
++cover 
+
+-reportprogress 300

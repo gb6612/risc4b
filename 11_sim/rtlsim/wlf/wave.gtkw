@@ -1,0 +1,46 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Fri Dec 17 08:44:41 2021
+[*]
+[dumpfile] "D:\0_IC\90_rnd\data\myiplib\risc4b\11_sim\rtlsim\wlf\sim_pat_basic.vcd"
+[dumpfile_mtime] "Fri Dec 17 08:39:26 2021"
+[dumpfile_size] 362350
+[savefile] "D:\0_IC\90_rnd\data\myiplib\risc4b\11_sim\rtlsim\wlf\wave.gtkw"
+[timestart] 0
+[size] 2080 990
+[pos] -1 -1
+*-20.509857 1097000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[sst_width] 289
+[signals_width] 179
+[sst_expanded] 1
+[sst_vpaned_height] 292
+@28
+top.clk
+top.nreset
+@22
+top.rxd[3:0]
+#{top.txd[3:0]} top.txd[3] top.txd[2] top.txd[1] top.txd[0]
+#{top.test[3:0]} top.test[3] top.test[2] top.test[1] top.test[0]
+@200
+-
+@22
+#{top.CHIP_I0.prog_addr[11:0]} top.CHIP_I0.prog_addr[11] top.CHIP_I0.prog_addr[10] top.CHIP_I0.prog_addr[9] top.CHIP_I0.prog_addr[8] top.CHIP_I0.prog_addr[7] top.CHIP_I0.prog_addr[6] top.CHIP_I0.prog_addr[5] top.CHIP_I0.prog_addr[4] top.CHIP_I0.prog_addr[3] top.CHIP_I0.prog_addr[2] top.CHIP_I0.prog_addr[1] top.CHIP_I0.prog_addr[0]
+#{top.CHIP_I0.prog_data[11:0]} top.CHIP_I0.prog_data[11] top.CHIP_I0.prog_data[10] top.CHIP_I0.prog_data[9] top.CHIP_I0.prog_data[8] top.CHIP_I0.prog_data[7] top.CHIP_I0.prog_data[6] top.CHIP_I0.prog_data[5] top.CHIP_I0.prog_data[4] top.CHIP_I0.prog_data[3] top.CHIP_I0.prog_data[2] top.CHIP_I0.prog_data[1] top.CHIP_I0.prog_data[0]
+@200
+-
+@22
+#{top.CHIP_I0.ee_addr[7:0]} top.CHIP_I0.ee_addr[7] top.CHIP_I0.ee_addr[6] top.CHIP_I0.ee_addr[5] top.CHIP_I0.ee_addr[4] top.CHIP_I0.ee_addr[3] top.CHIP_I0.ee_addr[2] top.CHIP_I0.ee_addr[1] top.CHIP_I0.ee_addr[0]
+#{top.CHIP_I0.ee_ctrl[3:0]} top.CHIP_I0.ee_ctrl[3] top.CHIP_I0.ee_ctrl[2] top.CHIP_I0.ee_ctrl[1] top.CHIP_I0.ee_ctrl[0]
+#{top.CHIP_I0.ee_rdata[7:0]} top.CHIP_I0.ee_rdata[7] top.CHIP_I0.ee_rdata[6] top.CHIP_I0.ee_rdata[5] top.CHIP_I0.ee_rdata[4] top.CHIP_I0.ee_rdata[3] top.CHIP_I0.ee_rdata[2] top.CHIP_I0.ee_rdata[1] top.CHIP_I0.ee_rdata[0]
+#{top.CHIP_I0.ee_wdata[7:0]} top.CHIP_I0.ee_wdata[7] top.CHIP_I0.ee_wdata[6] top.CHIP_I0.ee_wdata[5] top.CHIP_I0.ee_wdata[4] top.CHIP_I0.ee_wdata[3] top.CHIP_I0.ee_wdata[2] top.CHIP_I0.ee_wdata[1] top.CHIP_I0.ee_wdata[0]
+@201
+-
+@22
+#{top.CHIP_I0.ram_addr[7:0]} top.CHIP_I0.ram_addr[7] top.CHIP_I0.ram_addr[6] top.CHIP_I0.ram_addr[5] top.CHIP_I0.ram_addr[4] top.CHIP_I0.ram_addr[3] top.CHIP_I0.ram_addr[2] top.CHIP_I0.ram_addr[1] top.CHIP_I0.ram_addr[0]
+#{top.CHIP_I0.ram_rdata[3:0]} top.CHIP_I0.ram_rdata[3] top.CHIP_I0.ram_rdata[2] top.CHIP_I0.ram_rdata[1] top.CHIP_I0.ram_rdata[0]
+#{top.CHIP_I0.ram_wdata[3:0]} top.CHIP_I0.ram_wdata[3] top.CHIP_I0.ram_wdata[2] top.CHIP_I0.ram_wdata[1] top.CHIP_I0.ram_wdata[0]
+@28
+top.CHIP_I0.ram_we
+[pattern_trace] 1
+[pattern_trace] 0

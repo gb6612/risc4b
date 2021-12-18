@@ -1,0 +1,41 @@
+Deleting directory D:/0_IC/90_rnd/data/myiplib/risc4b/11_sim/rtlsim/work...
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+::SIG:: 1074979776
+Start time: 09:35:19 on Dec 18,2021
+vlog -f ./scripts/vlog.file -work work ./../../10_rtl/alu.v ./../../10_rtl/risc4b.v 
+-- Compiling module alu
+-- Compiling module risc4b
+
+Top level modules:
+	risc4b
+End time: 09:35:20 on Dec 18,2021, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+::SIG:: 1074979776
+Start time: 09:35:20 on Dec 18,2021
+vlog -f ./scripts/vlog.file -work work ./../../09_models/eeprom.v ./../../09_models/rom.v ./../../09_models/sram_v2.v ./../../09_models/chip.v 
+-- Compiling module eeprom
+-- Compiling module rom
+-- Compiling module sram_v2
+-- Compiling module chip
+
+Top level modules:
+	chip
+End time: 09:35:20 on Dec 18,2021, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+::SIG:: 1074979776
+Start time: 09:35:20 on Dec 18,2021
+vlog -sv -reportprogress 300 "+define+pat_nop" -work work ./../tb/tb_top.v 
+-- Compiling module top
+
+Top level modules:
+	top
+End time: 09:35:21 on Dec 18,2021, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+compiling modules
+compiling macros models
+compiling top&DUT 
+*************************************************************
+library work purged and recompiled
+*************************************************************

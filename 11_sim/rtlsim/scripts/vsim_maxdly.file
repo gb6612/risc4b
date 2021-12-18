@@ -1,0 +1,66 @@
+//  This file contains the online options passed
+//  to the modelsim verilog simulator.
+
++prw=none 
++write_delay_file
++overrideTiming 
++noCSMandates 
++dc_debug 
++define+NOFAULT
++nowarnTSCALE
+//// (vsim-3819) ...: Scheduled event on delay net ... was cancelled. (Glitch on an input detected). Be careful disabling this!!!
+//+nowarn3819
+//// # ** Warning: (vsim-8756) verilog/sc9tap_cm018mg_base_rvt.v(51350): Instance '...' - Negative timing check limits detected in simulation with cells modeled without delayed copies of data or reference signals.
+//+nowarn8756
+//// # ** Warning: (vsim-3004) verilog/sc9tap_cm018mg_base_rvt.v(53188): Instance '/top/chip/CORE/CORE_DIG/TOP_LOGIC_W_RAM/SNPS_spare__51' - No solution possible for delayed timing check nets. Setting negative limit to zero.
+//+nowarn3004
+//// # ** Warning: (vsim-3448) verilog/sc9tap_cm018mg_base_rvt.v(51354): Setting negative specify check constraint (-211 ps) to zero.
+//+nowarn3448
+//+ntc_warn
+
+// Run simulator in command line mode
+-c
+
+-vopt 
+// uncomment if debugging
+// -voptargs=+acc 
+-coverage 
+
+//============================================
+// Enables increased visibility into VHDL, Verilog, and SystemVerilog designs
+// Use if you'd like to use the schematic or the trace back features in Modelsim, 
+//-debugdb
+
+//============================================
+//	Standard verilog options
+//============================================
+//  Disable verilog timing checks
+//+notimingchecks
+
+//============================================
+//	Library search path(s)
+//============================================
+-L work
+-L D:\\mydata\\quartus_fpga\\lib\\modelsim_tcb018gbwp7t
+
+// SDF ANNOTATED DURING VOPT!
+//===========================================
+// sdf cmd
+//===========================================
+//-sdfnoerror
++sdf_verbose
+
+//===========================================
+// sdf files 
+//===========================================
+//  -sdfmax /top/chip/TOP_LOGIC_W_RAM=.\\..\\dc\\out\\top_logic.sdf
+ 
+
+//============================================
+//	Delay Models for switches and Gates
+//============================================
+//+mindelays
+//+typdelays
++maxdelays
+
+

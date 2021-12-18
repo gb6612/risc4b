@@ -1,0 +1,205 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/0_IC/90_rnd/data/myiplib/risc4b/11_sim/rtlsim
+T_opt
+!s110 1639816862
+VBG8nzlo;HQNWWhkDgj@Lk0
+04 3 4 work top fast 0
+=1-708bcd82599f-61bd9e9d-22a-148c
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work -L work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+valu
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1639816827
+!i10b 1
+!s100 UoVRS`ZcF?Ih>9YC5dI362
+IF[5c`jhUh^SbHDzRl<U271
+S1
+R0
+w1639815148
+8./../../10_rtl/alu.v
+F./../../10_rtl/alu.v
+!i122 0
+L0 27 133
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z6 !s108 1639816827.000000
+Z7 !s107 ./../../10_rtl/risc4b.v|./../../10_rtl/alu.v|
+Z8 !s90 -f|./scripts/vlog.file|-work|work|./../../10_rtl/alu.v|./../../10_rtl/risc4b.v|
+!i113 0
+Z9 !s102 +cover
+Z10 o-sv -64 -lint=full +cover -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 -sv -64 +incdir+./../../09_models +incdir+./../../10_rtl +incdir+./../tb -lint=full +cover -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vchip
+R2
+R3
+!i10b 1
+!s100 =gHfY0kDmK?LJf[dFjbM?2
+IVcKBIk5DzE?>>>IzDRFf;0
+S1
+R0
+w1639813950
+8./../../09_models/chip.v
+F./../../09_models/chip.v
+!i122 1
+L0 28 58
+R4
+R5
+r1
+!s85 0
+31
+R6
+Z12 !s107 ./../../09_models/chip.v|./../../09_models/sram_v2.v|./../../09_models/rom.v|./../../09_models/eeprom.v|
+Z13 !s90 -f|./scripts/vlog.file|-work|work|./../../09_models/eeprom.v|./../../09_models/rom.v|./../../09_models/sram_v2.v|./../../09_models/chip.v|
+!i113 0
+R9
+R10
+R11
+R1
+veeprom
+R2
+R3
+!i10b 1
+!s100 E<2RQLASF37EaCROneBa22
+I;B>@iQj30LRo30h[5oNcd2
+S1
+R0
+w1639753655
+8./../../09_models/eeprom.v
+F./../../09_models/eeprom.v
+!i122 1
+L0 29 37
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R13
+!i113 0
+R9
+R10
+R11
+R1
+vrisc4b
+R2
+R3
+!i10b 1
+!s100 kgYW;?aQR=S>QXSXR5ghk3
+Ik;69nnb;JdiCTJm<ShaN>3
+S1
+R0
+w1639816664
+8./../../10_rtl/risc4b.v
+F./../../10_rtl/risc4b.v
+!i122 0
+L0 33 327
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+R1
+vrom
+R2
+R3
+!i10b 1
+!s100 Ab[SmSGeL8zQ@RA>:iRDM1
+I2Jm?6J:hc5C@6>_?9d^iH1
+S1
+R0
+w1639753623
+8./../../09_models/rom.v
+F./../../09_models/rom.v
+!i122 1
+L0 29 22
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R13
+!i113 0
+R9
+R10
+R11
+R1
+vsram_v2
+R2
+R3
+!i10b 1
+!s100 U1V25438O6@hj56CeG9N53
+I?d6h7YZ0h9AZ>_YWegoHz3
+S1
+R0
+w1639753287
+8./../../09_models/sram_v2.v
+F./../../09_models/sram_v2.v
+!i122 1
+L0 33 41
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R13
+!i113 0
+R9
+R10
+R11
+R1
+vtop
+R2
+!s110 1639816828
+!i10b 1
+!s100 gz:H6Gnzi`V8FH:dITeX52
+IiZ50EQcFIPl@L?DOVMRe83
+S1
+R0
+w1639750092
+8./../tb/tb_top.v
+F./../tb/tb_top.v
+F./../tb/tasks.v
+F./../tb/pattern/pat_meadarm.v
+!i122 2
+L0 24 279
+R4
+R5
+r1
+!s85 0
+31
+!s108 1639816828.000000
+!s107 ./../tb/pattern/pat_meadarm.v|./../tb/tasks.v|./../tb/timescale.v|./../tb/tb_top.v|
+!s90 -sv|-reportprogress|300|+define+pat_meadarm|-work|work|./../tb/tb_top.v|
+!i113 0
+o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -sv +define+pat_meadarm -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
